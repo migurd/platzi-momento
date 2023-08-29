@@ -78,9 +78,9 @@ function app() {
     const cart2 = ShoppingCart.getInstance();
 
     const products: Product[] = [
-        new Product(1, "Apple", 100),
-        new Product(2, "Orange", 200),
-        new Product(3, "Watermelon", 300)
+        new Product(1, "Dónde", 100),
+        new Product(2, "está", 200),
+        new Product(3, "Dios", 300)
     ];
 
     cart1.addGroup(products);
